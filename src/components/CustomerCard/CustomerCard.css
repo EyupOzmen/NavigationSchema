@@ -1,0 +1,24 @@
+.customerCard__item {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 45vh;
+   height: 30vh;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: 20px 5px;
+}
+
+.customerCard__item > span {
+   margin-top: 15px;
+   text-decoration: none;
+   font-size: large;
+   color: rgb(2, 34, 5);
+}
+
+.customerCard__item:hover {
+   background-color: rgb(206, 204, 184);
+   transition: 200ms;
+   opacity: 0.5;
+}

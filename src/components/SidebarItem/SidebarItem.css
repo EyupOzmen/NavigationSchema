@@ -1,0 +1,14 @@
+.sidebaritem__container {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 8px 0px 8px 12px;
+   list-style: none;
+   height: 60px;
+   border: 1px solid whitesmoke;
+   border-radius: 5px;
+   margin: 2px 1px;
+}
+.sidebaritem__container:first-child {
+   margin-top: 1px;
+}

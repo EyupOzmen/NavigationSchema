@@ -1,0 +1,9 @@
+.banner__container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 90vw;
+   height: 60%;
+   margin: 10px 15px;
+}
