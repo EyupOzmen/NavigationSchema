@@ -14,7 +14,7 @@ const Category = () => {
 
    let data = categoryData.filter((item) => item.customerId === parseInt(id));
    let [{ categories }] = data;
-   console.log(categories);
+
    let productData = categories.filter((item) => item.category === category);
    let [{ products }] = productData;
 
@@ -49,8 +49,9 @@ const Category = () => {
                ))}
             </div>
             <div className="products__container">
-               {products.map((item) => (
+               {products.map((item, index) => (
                   <ProductItem
+                     key={index}
                      productId={item.productId}
                      product={item.product}
                      image={logo}
